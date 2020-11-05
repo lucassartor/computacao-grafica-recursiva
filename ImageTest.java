@@ -55,7 +55,7 @@ public class ImageTest {
 
 	public static void main(String [] args){
 
-		drawScene(args.length > 0 ? args[0] : "outPINTO.png");
+		drawScene(args.length > 0 ? args[0] : "test.png");
 	}
 }
 
