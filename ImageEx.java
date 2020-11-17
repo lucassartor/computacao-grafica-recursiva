@@ -64,7 +64,7 @@ public class ImageEx extends Image {
 	}
 
 	public void regionFill(int x, int y, int reference_rgb){
-        if(x > getWidth() || y > getHeight() || x < 0 || y < 0)
+        if(x >= getWidth() || y >= getHeight() || x < 0 || y < 0)
             return;
 
         if(getPixel(x,y) != reference_rgb)
