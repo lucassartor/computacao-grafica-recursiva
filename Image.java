@@ -3,6 +3,8 @@ import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
 
+// Classe Image - nao deve ser modificada
+
 public class Image {
 
 	private int width, height;
@@ -37,6 +39,16 @@ public class Image {
 	private int limit(int value){
 
 		return value < 0 ? 0 : (value > 255 ? 255 : value);
+	}
+
+	public int getWidth(){
+
+		return width;
+	}
+	
+	public int getHeight(){
+
+		return height;
 	}
 
 	public void setBgColor(Color c){

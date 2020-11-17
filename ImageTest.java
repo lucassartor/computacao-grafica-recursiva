@@ -1,3 +1,5 @@
+// Exemplo de uso dos recursos da classe Image
+
 public class ImageTest {
 
 	public static void drawScene(String fileName){
@@ -5,7 +7,7 @@ public class ImageTest {
 		int w = 512;
 		int h = 512;
 		Image img = new Image(w, h);
-		img.setBgColor(255, 255, 255);
+		img.setBgColor(0, 0, 0);
 		img.clear();
 
 		for(int i = 0; i < 15000; i++){
@@ -55,7 +57,7 @@ public class ImageTest {
 
 	public static void main(String [] args){
 
-		drawScene(args.length > 0 ? args[0] : "test.png");
+		drawScene(args.length > 0 ? args[0] : "out.png");
 	}
 }
 
