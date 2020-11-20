@@ -1,7 +1,8 @@
 # Introdução à Análise de Algoritmos - Exercício Programa 1
 Progama que desenvolve imagens digitais atráves de algoritmos recursivos na linguagem Java.
 
-<img src="saidas/exemplo1.png" alt="Exemplo de Saída 1" style="width: 400px; heigth:400px;"/> <img src="saidas/exemplo2.png" alt="Exemplo de Saída 2" style="width: 400px; heigth:400px;"/> <img src="saidas/exemplo3.png" alt="Exemplo de Saída 3" style="width: 400px; heigth:400px;"/> <img src="saidas/exemplo4.png" alt="Exemplo de Saída 4" style="width: 400px; heigth:400px;"/> <img src="saidas/exemplo5.png" alt="Exemplo de Saída 5" style="width: 400px; heigth:400px;"/> <img src="saidas/exemplo6.png" alt="Exemplo de Saída 6" style="width: 400px; heigth:400px;"/>
+
+<img src="saidas/exemplo1.png" alt="Exemplo de Saída 1" width="400" heigth="400"/> <img src="saidas/exemplo2.png" alt="Exemplo de Saída 2" width="400" heigth="400"/> <img src="saidas/exemplo3.png" alt="Exemplo de Saída 3" width="400" heigth="400"/> <img src="saidas/exemplo4.png" alt="Exemplo de Saída 4" width="400" heigth="400"/> <img src="saidas/exemplo5.png" alt="Exemplo de Saída 5" width="400" heigth="400"/> <img src="saidas/exemplo6.png" alt="Exemplo de Saída 6" width="400" heigth="400"/>
 
 ## Como Usar
 
