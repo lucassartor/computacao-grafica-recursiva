@@ -1,3 +1,5 @@
+//11796718 - Lucas Sartor Chauvin
+
 // Exemplo de uso dos recursos da classe Image
 
 public class ImageTest {
