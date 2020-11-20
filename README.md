@@ -2,7 +2,6 @@
 Progama que desenvolve imagens digitais atráves de algoritmos recursivos na linguagem Java.
 Feito como Exercício Programa da disciplina de Introdução à Análise de Algoritmos (ACH2002).
 
-Exemplos de imagens:
 
 <img src="saidas/exemplo1.png" alt="Exemplo de Saída 1" width="400" heigth="400"/> <img src="saidas/exemplo2.png" alt="Exemplo de Saída 2" width="400" heigth="400"/> <img src="saidas/exemplo4.png" alt="Exemplo de Saída 4" width="400" heigth="400"/> <img src="saidas/exemplo5.png" alt="Exemplo de Saída 5" width="400" heigth="400"/>
 
@@ -42,8 +41,6 @@ O arquivo de entrada é um arquivo em formato `.txt` que contem as definições 
 ```
 Há exemplos de entradas na pasta `entradas`.
 
-### Classe Image
-
 ### Comandos e Paramêtros
 Há 5 comandos disponíveis para serem usados no arquivo de entrada e na construção de uma imagem:
 
@@ -80,6 +77,10 @@ Colore uma linha a partir da coordenal de um pixel inicial e de um pixel final.
 ####  **`KOCH_CURVE`**
 Faz uma Curva de Koch a partir de um ponto inicial, um ponto final e um limiar (quanto menor, mais iterações da curva).
 
+Exemplo com dois limiares diferentes:
+
+<img src="saidas/exemplo6.png" width="400" alt="Exemplo Curva de Koch">
+
 **Paramêtros:** devem ser especificados 5 valores inteiros: *x1* e *y1* (coordenada do ponto P), *x2* e *y2* (coordenada do ponto Q),e o valor *l* do limiar.
 
 **Exemplo:**
@@ -88,12 +89,11 @@ Faz uma Curva de Koch a partir de um ponto inicial, um ponto final e um limiar (
    ```
 
 ####  **`REGION_FILL`**
-Colore
+Colore uma região inteira a partir da coordenada de um pixel. Semelhante à lata de tinta do Paint.
 
-**Paramêtros:** devem ser especificados 5 valores inteiros: *x1* e *y1* (coordenada do ponto P), *x2* e *y2* (coordenada do ponto Q),e o valor *l* do limiar.
+**Paramêtros:** devem ser especificados 2 valores inteiros referentes às coordenadas *x* e *y* do ponto apartir do qual o preenchimento será feito.
 
 **Exemplo:**
    ```txt
-      KOCH_CURVE 0 200 512 200 10
+      REGION_FILL 250 250
    ```
-
