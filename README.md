@@ -54,6 +54,7 @@ Define uma cor *RGB* que será utilizada pelos próximos comandos.
       SET_COLOR 255 255 255  
    ```
 
+
 ####  **`SET_PIXEL`**
 Colore um pixel em uma coordenada na imagem.
 
@@ -63,6 +64,7 @@ Colore um pixel em uma coordenada na imagem.
    ```txt
       SET_PIXEL 0 512  
    ```
+
 
 ####  **`DRAW_LINE`**
 Colore uma linha a partir da coordenal de um pixel inicial e de um pixel final.
@@ -81,12 +83,14 @@ Exemplo com dois limiares diferentes:
 
 <img src="saidas/exemplo6.png" width="400" alt="Exemplo Curva de Koch">
 
+
 **Paramêtros:** devem ser especificados 5 valores inteiros: *x1* e *y1* (coordenada do ponto P), *x2* e *y2* (coordenada do ponto Q),e o valor *l* do limiar.
 
 **Exemplo:**
    ```txt
       KOCH_CURVE 0 200 512 200 10
    ```
+
 
 ####  **`REGION_FILL`**
 Colore uma região inteira a partir da coordenada de um pixel. Semelhante à lata de tinta do Paint.
